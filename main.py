@@ -23,6 +23,6 @@ class Main(
 
 
 if __name__ == "__main__":
-    command = ["manim", __file__, "Main", "-pql"]
+    command = ["manim", __file__, "Main", "-pqp"]
     print(" ".join(command))
     subprocess.run(command)
